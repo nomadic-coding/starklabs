@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <template id="inline_form">
+        <div name="o_tilopay_form" t-att-data-sale-order-id="sale_order_id or None">
+            <div class="o_tilopay_portal_form">
+                <div class="card shadow-sm border">
+                    <div class="card-body p-4">
+
+                        <div
+                             class="o_tilopay_loading d-flex flex-column align-items-center justify-content-center py-4">
+                            <div class="o_spinner mb-3">
+                                <img src="/web/static/img/spin.svg" alt="Loading..."/>
+                            </div>
+                            <div class="o_message text-muted small text-center px-4">
+                                Loading payment methods...
+                            </div>
+                        </div>
+                        <div class="payFormTilopay d-none">
+                            <div
+                                 t-attf-class="mb-3 o_tilopay_payment_method_group {{ '' if request.session.debug else 'd-none' }}">
+                                <label class="form-label" for="tlpy_payment_method">Payment method</label>
+                                <select id="tlpy_payment_method" class="form-select">
+                                    <option value="">Select a payment method</option>
+                                </select>
+                            </div>
+                            <select id="tlpy_saved_cards" class="d-none">
+                                <option value="" />
+                            </select>
+                            <div class="mb-3">
+                                <label class="form-label" for="tlpy_cc_number">Card number</label>
+                                <div class="input-group">
+                                    <span class="input-group-text">
+                                        <i class="fa fa-credit-card" aria-hidden="true" />
+                                    </span>
+                                    <input type="text" id="tlpy_cc_number" class="form-control" maxlength="19"
+                                           autocomplete="cc-number" inputmode="numeric"
+                                           placeholder="1234 5678 9012 3456" />
+                                </div>
+                            </div>
+                            <div class="row g-3">
+                                <div class="col-md-7">
+                                    <label class="form-label" for="tlpy_cc_expiration_date">Expiration</label>
+                                    <input type="text" id="tlpy_cc_expiration_date" class="form-control" maxlength="5"
+                                           autocomplete="cc-exp" inputmode="numeric" placeholder="MM / YY" />
+                                </div>
+                                <div class="col-md-5">
+                                    <label class="form-label" for="tlpy_cvv">Security code</label>
+                                    <div class="input-group">
+                                        <input type="text" id="tlpy_cvv" class="form-control" maxlength="4"
+                                               autocomplete="cc-csc" inputmode="numeric" placeholder="CVV" />
+                                        <span class="input-group-text" title="3 or 4 digits on the back of your card">
+                                            <i class="fa fa-lock" aria-hidden="true" />
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </template>
+
+</odoo>

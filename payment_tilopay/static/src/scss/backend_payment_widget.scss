@@ -1,0 +1,29 @@
+.o_tilopay_backend_form,
+.o_tilopay_portal_form {
+    max-width: 28rem;
+
+    .card-title {
+        font-size: 1rem;
+    }
+
+    .o_tilopay_card_icon {
+        color: #6c757d;
+        width: 1.1rem;
+        text-align: center;
+    }
+
+    .form-label {
+        font-weight: 500;
+        font-size: 0.875rem;
+        margin-bottom: 0.35rem;
+    }
+
+    .form-control,
+    .form-select {
+        font-size: 0.9375rem;
+    }
+
+    .input-group-text {
+        color: #6c757d;
+    }
+}

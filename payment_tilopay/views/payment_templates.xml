@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <template id="payment_form" inherit_id="payment.form">
+        <xpath expr="." position="inside">
+            <script type="text/javascript" src="https://app.tilopay.com/sdk/v2/sdk_tpay.min.js"/>
+        </xpath>
+    </template>
+
+</odoo>

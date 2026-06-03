@@ -1,0 +1,247 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* payment_tilopay
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-03 00:00+0000\n"
+"PO-Revision-Date: 2026-06-03 00:00+0000\n"
+"Last-Translator: STARK LABS\n"
+"Language-Team: Spanish\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#. module: payment_tilopay
+#: model_terms:ir.ui.view,arch_db:payment_tilopay.inline_form
+msgid "1234 5678 9012 3456"
+msgstr "1234 5678 9012 3456"
+
+#. module: payment_tilopay
+#: model_terms:ir.ui.view,arch_db:payment_tilopay.inline_form
+msgid "3 or 4 digits on the back of your card"
+msgstr "3 o 4 dígitos en el reverso de su tarjeta"
+
+#. module: payment_tilopay
+#. odoo-javascript
+#: code:addons/payment_tilopay/static/src/js/portal_payment_form.js:0
+msgid "3 or 4 digits on the back of your card"
+msgstr "3 o 4 dígitos en el reverso de su tarjeta"
+
+#. module: payment_tilopay
+#. odoo-javascript
+#: code:addons/payment_tilopay/static/src/js/portal_payment_form.js:0
+msgid "1234 5678 9012 3456"
+msgstr "1234 5678 9012 3456"
+
+#. module: payment_tilopay
+#. odoo-javascript
+#: code:addons/payment_tilopay/static/src/js/portal_payment_form.js:0
+msgid "Card details"
+msgstr "Detalles de la tarjeta"
+
+#. module: payment_tilopay
+#. odoo-javascript
+#: code:addons/payment_tilopay/static/src/js/portal_payment_form.js:0
+msgid "Card number"
+msgstr "Número de tarjeta"
+
+#. module: payment_tilopay
+#: model_terms:ir.ui.view,arch_db:payment_tilopay.inline_form
+msgid "CVV"
+msgstr "CVV"
+
+#. module: payment_tilopay
+#. odoo-javascript
+#: code:addons/payment_tilopay/static/src/js/portal_payment_form.js:0
+msgid "CVV"
+msgstr "CVV"
+
+#. module: payment_tilopay
+#. odoo-javascript
+#: code:addons/payment_tilopay/static/src/js/portal_payment_form.js:0
+msgid "Could not initialize Tilopay."
+msgstr "No se pudo inicializar Tilopay."
+
+#. module: payment_tilopay
+#. odoo-javascript
+#: code:addons/payment_tilopay/static/src/js/portal_payment_form.js:0
+msgid "Could not load Tilopay."
+msgstr "No se pudo cargar Tilopay."
+
+#. module: payment_tilopay
+#. odoo-javascript
+#: code:addons/payment_tilopay/static/src/js/portal_payment_form.js:0
+msgid "Could not prepare Tilopay payment."
+msgstr "No se pudo preparar el pago con Tilopay."
+
+#. module: payment_tilopay
+#. odoo-javascript
+#: code:addons/payment_tilopay/static/src/js/portal_payment_form.js:0
+msgid "Enter the card information to process this payment."
+msgstr "Ingrese la información de la tarjeta para procesar este pago."
+
+#. module: payment_tilopay
+#: model_terms:ir.ui.view,arch_db:payment_tilopay.inline_form
+msgid "Expiration"
+msgstr "Vencimiento"
+
+#. module: payment_tilopay
+#. odoo-javascript
+#: code:addons/payment_tilopay/static/src/js/portal_payment_form.js:0
+msgid "Expiration"
+msgstr "Vencimiento"
+
+#. module: payment_tilopay
+#. odoo-javascript
+#: code:addons/payment_tilopay/static/src/js/portal_payment_form.js:0
+msgid "Loading..."
+msgstr "Cargando..."
+
+#. module: payment_tilopay
+#: model_terms:ir.ui.view,arch_db:payment_tilopay.inline_form
+msgid "Loading payment methods..."
+msgstr "Cargando métodos de pago..."
+
+#. module: payment_tilopay
+#. odoo-javascript
+#: code:addons/payment_tilopay/static/src/js/portal_payment_form.js:0
+msgid "Loading payment methods..."
+msgstr "Cargando métodos de pago..."
+
+#. module: payment_tilopay
+#: model_terms:ir.ui.view,arch_db:payment_tilopay.inline_form
+msgid "MM / YY"
+msgstr "MM / AA"
+
+#. module: payment_tilopay
+#. odoo-javascript
+#: code:addons/payment_tilopay/static/src/js/portal_payment_form.js:0
+msgid "MM / YY"
+msgstr "MM / AA"
+
+#. module: payment_tilopay
+#. odoo-javascript
+#: code:addons/payment_tilopay/static/src/js/portal_payment_form.js:0
+msgid "Pay securely"
+msgstr "Pagar de forma segura"
+
+#. module: payment_tilopay
+#. odoo-javascript
+#: code:addons/payment_tilopay/static/src/js/portal_payment_form.js:0
+msgid "Payment error"
+msgstr "Error de pago"
+
+#. module: payment_tilopay
+#. odoo-javascript
+#: code:addons/payment_tilopay/static/src/js/portal_payment_form.js:0
+msgid "Payment failed"
+msgstr "Pago fallido"
+
+#. module: payment_tilopay
+#. odoo-javascript
+msgid "Payment submitted to Tilopay."
+msgstr "Pago enviado a Tilopay."
+
+#. module: payment_tilopay
+#: model_terms:ir.ui.view,arch_db:payment_tilopay.inline_form
+msgid "Payment method"
+msgstr "Método de pago"
+
+#. module: payment_tilopay
+#. odoo-javascript
+#: code:addons/payment_tilopay/static/src/js/portal_payment_form.js:0
+msgid "Payment method"
+msgstr "Método de pago"
+
+#. module: payment_tilopay
+#: model_terms:ir.ui.view,arch_db:payment_tilopay.inline_form
+msgid "Security code"
+msgstr "Código de seguridad"
+
+#. module: payment_tilopay
+#. odoo-javascript
+#: code:addons/payment_tilopay/static/src/js/portal_payment_form.js:0
+msgid "Security code"
+msgstr "Código de seguridad"
+
+#. module: payment_tilopay
+#: model_terms:ir.ui.view,arch_db:payment_tilopay.inline_form
+msgid "Select a payment method"
+msgstr "Seleccione un método de pago"
+
+#. module: payment_tilopay
+#. odoo-javascript
+#: code:addons/payment_tilopay/static/src/js/portal_payment_form.js:0
+msgid "Select a payment method"
+msgstr "Seleccione un método de pago"
+
+#. module: payment_tilopay
+#. odoo-javascript
+#: code:addons/payment_tilopay/static/src/js/portal_payment_form.js:0
+msgid "The Contado payment method is not available."
+msgstr "El método de pago Contado no está disponible."
+
+#. module: payment_tilopay
+#. odoo-javascript
+#: code:addons/payment_tilopay/static/src/js/portal_payment_form.js:0
+msgid "The 3-D Secure verification could not start. Refresh the page and try again."
+msgstr "No se pudo iniciar la verificación 3-D Secure. Actualice la página e intente de nuevo."
+
+#. module: payment_tilopay
+#. odoo-javascript
+msgid "Tilopay data is missing."
+msgstr "Faltan datos de Tilopay."
+
+#. module: payment_tilopay
+#. odoo-javascript
+#: code:addons/payment_tilopay/static/src/js/portal_payment_form.js:0
+msgid "Tilopay form is not available. Contact your administrator."
+msgstr "El formulario de Tilopay no está disponible. Contacte a su administrador."
+
+#. module: payment_tilopay
+#. odoo-javascript
+#: code:addons/payment_tilopay/static/src/js/portal_payment_form.js:0
+msgid "Tilopay form is not available. Refresh the page and try again."
+msgstr "El formulario de Tilopay no está disponible. Actualice la página e intente de nuevo."
+
+#. module: payment_tilopay
+#. odoo-javascript
+#: code:addons/payment_tilopay/static/src/js/portal_payment_form.js:0
+msgid "Tilopay production requires a public HTTPS return URL. Set web.base.url or configure Return URL on the Tilopay payment provider."
+msgstr "Tilopay en producción requiere una URL de retorno HTTPS pública. Configure web.base.url o la URL de retorno en el proveedor de pago Tilopay."
+
+#. module: payment_tilopay
+#. odoo-javascript
+msgid ""
+"Tilopay production requires a public HTTPS return URL. "
+"Configure Return URL on the payment provider."
+msgstr ""
+"Tilopay en producción requiere una URL de retorno HTTPS pública. "
+"Configure la URL de retorno en el proveedor de pago."
+
+#. module: payment_tilopay
+#. odoo-javascript
+#: code:addons/payment_tilopay/static/src/js/portal_payment_form.js:0
+msgid "Card encryption failed. Check your card details and try again."
+msgstr "Error al cifrar la tarjeta. Verifique los datos de su tarjeta e intente de nuevo."
+
+#. module: payment_tilopay
+#. odoo-javascript
+#: code:addons/payment_tilopay/static/src/js/portal_payment_form.js:0
+msgid "Unknown error"
+msgstr "Error desconocido"
+
+#. module: payment_tilopay
+#: model_terms:ir.ui.view,arch_db:payment_tilopay.inline_form
+msgid "Card number"
+msgstr "Número de tarjeta"
+
+#. module: payment_tilopay
+#: model_terms:ir.ui.view,arch_db:payment_tilopay.inline_form
+msgid "Loading..."
+msgstr "Cargando..."

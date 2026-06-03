@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="payment_provider_form" model="ir.ui.view">
+        <field name="name">payment.provider.form.tilopay</field>
+        <field name="model">payment.provider</field>
+        <field name="inherit_id" ref="payment.payment_provider_form"/>
+        <field name="arch" type="xml">
+            <group name="provider_credentials" position="inside">
+                <group invisible="code != 'tilopay'" name="tilopay_credentials">
+                    <field name="tilopay_api_key"
+                           required="code == 'tilopay' and state != 'disabled'"/>
+                    <field name="tilopay_api_user"
+                           password="True"
+                           required="code == 'tilopay' and state != 'disabled'"/>
+                    <field name="tilopay_api_password"
+                           password="True"
+                           required="code == 'tilopay' and state != 'disabled'"/>
+                    <field name="tilopay_return_url"
+                           placeholder="https://your-domain.com/payment/tilopay/return"/>
+                </group>
+            </group>
+        </field>
+    </record>
+</odoo>
