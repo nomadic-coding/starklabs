@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <!-- Operations tab: show the Serial Numbers column by default. -->
+    <record id="view_picking_form" model="ir.ui.view">
+        <field name="name">stock.picking.form.lot.inline</field>
+        <field name="model">stock.picking</field>
+        <field name="inherit_id" ref="stock.view_picking_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='move_ids_without_package']/list/field[@name='lot_ids']" position="attributes">
+                <attribute name="optional">show</attribute>
+            </xpath>
+        </field>
+    </record>
+
+    <!-- Details popup: on deliveries the lot/serial is only reachable through
+         "Pick From"; show the Lot/Serial Number column next to it. -->
+    <record id="view_stock_move_line_operation_tree" model="ir.ui.view">
+        <field name="name">stock.move.line.operations.list.lot.inline</field>
+        <field name="model">stock.move.line</field>
+        <field name="inherit_id" ref="stock.view_stock_move_line_operation_tree"/>
+        <field name="arch" type="xml">
+            <field name="lot_id" position="attributes">
+                <attribute name="column_invisible">parent.has_tracking == 'none' or not parent.show_lots_m2o and not parent.show_quant</attribute>
+            </field>
+        </field>
+    </record>
+
+</odoo>
